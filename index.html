@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="14359077.png">
+</head>
+<body>
+    <button id="toggleTheme">Toggle theme</button>
+    <div class="container">
+        <h1>Pomodoro timer</h1>
+
+        <div id="timer">
+            <span id="timeDisplay">25:00</span>
+        </div>
+
+        <div id="counter">Completed Pomodoros: 0</div>
+
+        <div class="progress_bar">
+            <div id="progress"></div>
+        </div>
+
+        <div id="controls">
+            <button id="startButton">Start</button>
+            <button id="resetButton">Reset</button>
+        </div>
+
+        <div id="sessionType">
+            <span>Work Session</span>
+        </div>
+    </div>    
+
+    <audio id="alarmSound" src="103588__steveygos93__beeps3.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
